@@ -1,3 +1,4 @@
+VERSION = 	0.0.1
 TEMPLATE = 	app
 HEADERS = 	sessionjs.h \
 		mainwindow.h \
@@ -32,7 +33,7 @@ QT += webkit dbus
 
 RESOURCES = resources/sjs.qrc
 
-OTHER_FILES += html/index.html README
+DISTFILES = resources/index.html
 
 MAKE_CLEAN += $$OBJECTS_DIR/*.o
 MAKE_DISTCLEAN += \
