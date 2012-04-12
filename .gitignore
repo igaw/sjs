@@ -1,0 +1,11 @@
+Makefile
+sjs
+qrc_sjs.cpp
+.moc
+.obj
+.gen
+*_interface.cpp
+*_interface.h
+*_adaptor.cpp
+*_adaptor.h
+*.o
